@@ -26,7 +26,7 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# About the IBM Cloud Direct Link Dedicated solution
+# About the Direct Link Dedicated solution
 {: #dl-dedicated-solution}
 
 The IBM Cloud Direct Link Dedicated solution lets customers terminate a single-tenant, fiber-based cross-connect into their own {{site.data.keyword.cloud_notm}} private network connection. This offering can be used by customers with colocation facilities that are next to IBM Cloud PoPs and data centers. It can also be used by network service providers (NSPs) that deliver circuits to customer premises or to other data centers.
