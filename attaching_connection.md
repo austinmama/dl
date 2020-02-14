@@ -35,7 +35,7 @@ You can add a virtual connection when you create a Direct Link gateway using the
 A gateway is restricted from adding connections during **In review** and some **In progress** states.
 {:note}
 
-To add a virtual connection, follow these steps:
+To add a virtual connection after you create a Direct Link gateway, follow these steps:
 
 1. To add a virtual connection to an existing gateway, highlight the row of the gateway in the Direct Link table, then click **Add connection** from the **Overflow** ![Overflow menu](images/overflow.png) menu. Alternatively, you can click **Actions > Add connection+** on the gateway's details page.
 
