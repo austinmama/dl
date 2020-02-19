@@ -62,7 +62,10 @@ Follow these steps to connect networks owned by different accounts:
 
 1. Click the Direct Link name in the table to show its details, then click **Add connection +** in the "Virtual connections" section.
 2. On the "Add connection" page, select to **Request connection to a network within another account**.
-3. Type the VPC CRN of the cross-account network. Then, enter the name of the network connection and click **Add**.
+3. Type the VPC Cloud Resource Name (CRN) of the cross-account network. Then, enter the name of the network connection and click **Add**.
+   
+   To locate the VPC CRN, click the the Menu icon ![Menu icon](../icons/icon_hamburger.svg) > **Resource List** and then expand   **VPC infrastructure**. Find the VPC name and then click its `Status` to open a details pane with the CRN listed. You can copy the CRN and paste it in the Direct Link window.
+   {: tip}
 
    The network connection displays in the gateway account with **Pending approval** status.   
 3. The network owner's account displays the gateway in **view only** mode. Click the gateway name and **Accept** the network connection request from the network owner's account.
