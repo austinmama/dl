@@ -86,7 +86,7 @@ To order Direct Link Connect, follow these steps:
 
 1. In the Gateway section, select a geography, followed by a market, type, site, and routing option. Then, select a provider, connection speed, and port.
 
-   Available speeds are based on your provider's location. {{site.data.keyword.dl_short}} Connect supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, 25 Gbps, 40 Gbps, 50 Gbps, and 100 Gbps.
+   Available speeds are based on your provider's location. {{site.data.keyword.dl_short}} Connect supports the following speeds: 50 Mbps, 100 Mbps, 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, and 10 Gbps. (Speeds of 25 Gbps, 40 Gbps, 50 Gbps, and 100 Gbps are available on 100G NNIs only.)
    {: note}  
 
    ![Location section](/images/dl-location-connect.png){: caption="Location section" caption-side="bottom"}    
