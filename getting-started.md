@@ -28,13 +28,13 @@ subcollection: dl
 {:generic: data-hd-programlang="generic"}
 {:download: .download}  
 
-# Getting started with {{site.data.keyword.dl_full_notm}} (2.0)
+# Getting started with {{site.data.keyword.cloud_notm}} {{site.data.keyword.dl_short}} (2.0)
 {: #get-started-with-ibm-cloud-dl}
 
-Use {{site.data.keyword.dl_full}} to seamlessly connect your on-premises resources to your cloud resources. The speed and reliability of {{site.data.keyword.dl_short}} extends your organization’s data center network and offers more consistent, higher-throughput connectivity, keeping traffic within the IBM Cloud network.
+Use {{site.data.keyword.cloud}} {{site.data.keyword.dl_short}} to seamlessly connect your on-premises resources to your cloud resources. The speed and reliability of {{site.data.keyword.dl_short}} extends your organization’s data center network and offers more consistent, higher-throughput connectivity, keeping traffic within the {{site.data.keyword.cloud_notm}} network.
 {: shortdesc}
 
-Highlights include:
+{{site.data.keyword.dl_short}} highlights include:
 
 * Metered billing, which lowers the barrier of entry to {{site.data.keyword.cloud_notm}}
 * Support for connections to multiple {{site.data.keyword.cloud_notm}} accounts from a single direct link
