@@ -73,17 +73,19 @@ If you are looking for High Availability (HA), or full redundancy, set up two li
 ## Direct Link BGP path selection
 {: #dl-bgp-path-selection}
 
-In the situation where the same route prefixes are being advertised to IBM Cloud through the BGP session for Direct Link, a customer can prepend one or more Autonomous System Number (ASN) to the route advertisement.  AS prepend makes the AS path longer, and therefore, the route for the prefix is less preferred  by the  BGP protocol on the IBM Cloud router.
+In the situation where the same route prefixes are being advertised to IBM Cloud through the BGP session for Direct Link, you can prepend one or more Autonomous System Numbers (ASNs) to the route advertisement. Manual manipulation of an AS path length is called AS path prepending.You can use this technique to deprioritize a route by artificially increasing the length of the AS-PATH attribute by repeating the local ASN on the BGP session that is performing the prepend. Assuming all other criteria is equal, an AS prepend makes the AS path longer, and therefore, the route for the prefix is less preferred by the BGP protocol on the IBM Cloud router.
 
-The ASN used for the prefix can be the same ASN as the local AS on the BGP session that is performing the prepend. 
-{: note}
+You can add AS path prepends when you order a direct link connection, or from the Overview tab if the direct link is already provisioned. For example, add the ASN at the beginning of the path after the actual AS number from which the route originates is added to the path. 
 
-IBM Cloud Direct Link does not allow path preference for route prefixes received from the customer with the following BGP attributes: 
+XXXX
+
+IBM Cloud Direct Link does not allow path preference for route prefixes received from the customer with the following BGP attributes:
 
 * Weight
 * Local preference
 * Multiple Exit Discriminator (MED)
 
-Finally, if the duplicate route prefixes are received with the same AS path length from different origin routers, IBM Cloud gives preference to the oldest route received. In other words, the first BGP session that advertises a given route prefix receives path preference. 
+Also, if duplicate route prefixes are received with the same AS path length from different origin routers, IBM Cloud gives preference to the oldest route received. In other words, the first BGP session that advertises a given route prefix receives path preference.
 
-Similar rules apply on the route prefixes that IBM Cloud advertises to the customer. The IBM Cloud routers advertise all prefixes that are associated with all applicable Direct Link connections equally (through BGP) with no additional BGP attributes to indicate path preference. The customer can implement import policies of their choice to prevent asymmetric routing scenarios that align with any existing export policies. 
+Similar rules apply on the route prefixes that IBM Cloud advertises. The IBM Cloud routers advertise all prefixes that are associated with all applicable Direct Link connections equally (through BGP) with no additional BGP attributes to indicate path preference. You can implement import policies of your choice to prevent asymmetric routing scenarios that align with any existing export policies.
+
