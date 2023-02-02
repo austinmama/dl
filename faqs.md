@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2022
-lastupdated: "2022-12-01"
+  years: 2020, 2023
+lastupdated: "2023-02-02"
 
 keywords: direct link
 
@@ -23,7 +23,7 @@ You can review answers to some frequently asked questions about {{site.data.keyw
 {: faq}
 {: support}
 
-The new {{site.data.keyword.dl_short}} offering differs from the {{site.data.keyword.dl_short}} classic infrastructure in that {{site.data.keyword.dl_short}} is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
+The {{site.data.keyword.dl_short}} offering differs from {{site.data.keyword.dl_short}} on Classic in that {{site.data.keyword.dl_short}} is decoupled from classic IaaS, and exists only in the local cross-connect router (XCR). This design enables native connectivity to VPC and future capabilities without being forced into the classic IaaS network.
 
 The offering allows connectivity to both classic IaaS as well as VPCs, whereas {{site.data.keyword.dlc_full_notm}} always connects to the IaaS network and a global VRF first. {{site.data.keyword.dlc_full_notm}} can only reach the VPC on a limited basis using a feature named Classic Access and by adding global routing to the direct link. See [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure) for more information.
 
@@ -65,6 +65,13 @@ For the most up-to-date information, see [{{site.data.keyword.dl_short}} Dedicat
 You can connect the classic infrastructure and VPC with classic peering as described in [Setting up access to your Classic Infrastructure from VPC](/docs/vpc?topic=vpc-setting-up-access-to-classic-infrastructure).
 
 Classic access features of VPC are an option at VPC setup and can only be enabled at the initial VPC creation.
+
+## Can I change billing options after my direct link is provisioned?
+{: #switch-billing-options}
+{: faq}
+{: support}
+
+Yes, you can change billing options after a direct link is provisioned.  You can change from Metered to Unmetered regardless if you chose Global or Local routing. For example, to change from metered to unmetered billing, navigate to the Details page of the direct link and click **Edit**. In the side panel, select **Unmetered** in the Billing section, review the updated information, then agree to the prerequisites and click **Submit**. (edited) 
 
 ## Is there a way to connect {{site.data.keyword.dl_short}} to VPC without using the classic infrastructure?
 {: #connect-wo-using-classic}
