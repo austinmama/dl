@@ -106,7 +106,7 @@ Port speed options
 
  :    Select 50 Mbps, 100 Mbps[^100], 200 Mbps, 500 Mbps, 1 Gbps, 2 Gbps, 5 Gbps, 10 Gbps, 25 Gbps, 40 Gbps, 50 Gbps, or 100 Gbps.
 
-[^100]: 100 Mbps not available for Equinix Exchange and Connect direct links.
+[^100]: The 100 Mbps port speed option is not available for Equinix Exchange and Connect direct links.
 
 Approximate latency:
 
